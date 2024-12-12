@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html style="padding: 0; margin: 0">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <meta name="description" content="Лабораторна №6">
+    <meta name="author" content="Студент групи КН-31заоч, Москва Богдан">
+    <meta name="keywords" content="HTML, web, дизайн">
+    <title>Лабораторна №6</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Обов'язкові дані</legend>
+
+        Ім'я:
+        <p><input type="text" tabindex="1" placeholder="Введіть своє ім'я"></p>
+
+        Прізвище:
+        <p><input type="text" tabindex="2" placeholder="Введіть своє прізвище"></p>
+
+        Пароль:
+        <p><input type="password" tabindex="3" placeholder="Введіть пароль"></p>
+
+        Email:
+        <p><input type="email" tabindex="4" placeholder="Введіть email"></p>
+
+        Дата народження:
+        <p><input type="date" tabindex="5"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Необов'язкові дані</legend>
+
+        Про себе:
+        <p><textarea tabindex="7" placeholder="Розкажіть про себе"></textarea></p>
+
+        Вивчаю/знаю:
+        <p><input type="checkbox" tabindex="8">Front-end</p>
+        <p><input type="checkbox" tabindex="9">Back-end</p>
+        <p><input type="checkbox" tabindex="10">DevOps</p>
+
+        Стать:
+        <p><input type="radio" tabindex="11">Чоловіча</p>
+        <p><input type="radio" tabindex="12">Жіноча</p>
+
+        Аватар:
+        <p><input type="file" accept="image/*" tabindex="13"></p>
+
+        Місто народження:
+        <select tabindex="14">
+            <option>Львів</option>
+            <option>Київ</option>
+            <option>Одеса</option>
+            <option>Полтава</option>
+        </select>
+    </fieldset>
+    <input type="submit" value="Відправити">
+    <input type="reset">
+</form>
+
+</body>
+</html>
